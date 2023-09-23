@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: #03405A;
+    text-align: center;
+}
+.dropdown a{
+    color: white;
+    font-size: 20px;
+    padding: 8px 0;
+    display: inline-block;
+}
+.dropdown{
+    display: none;
+}
+nav .menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav .menu > ul > li{
+    display: inline-block;
+    position: relative;
+}
+nav .menu ul li a{
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu ul ul{
+    background: #045375;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    font-size: 12px;
+    display: none;
+}
