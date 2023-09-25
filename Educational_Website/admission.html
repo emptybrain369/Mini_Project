@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>seu_website</title>
+</head>
+<body style="background-color: antiquewhite;">
+<!--header section start-->
+ <div style="background-color: wheat;width: 90%;margin: 0 auto;float: left;margin-left: 63px;" >
+  <center><img src="Image/header.png" alt="logo"></center>
+ </div>
+ <!--header section end-->
+<!--menu section start-->  
+<div style="background-color:blue;width: 90%;margin: 0 auto;height: 50px;float: left;margin-left: 63px;">
+    <a href="home.html"style="color: white;float: left; width: 11%;padding: 15px;font-size: 1.2rem;text-decoration: none;" >Home</a>
+    <a href="about.html" style="color: white;float: left;width: 11%;padding: 15px;font-size: 1.2rem;text-decoration: none;">About</a>
+    <a href="admission.html" style="color: white;float: left;width: 11%;padding: 12px;font-size: 1.2rem;text-decoration: none;">Admission</a>
+    <a href="login.html" style="color: white;float: left;width: 11%;padding: 15px;font-size: 1.2rem;text-decoration: none;">Login</a>
+    <a href="registration.html"style="color: white;float: left;width: 11%;padding: 15px;font-size: 1.2rem;text-decoration: none;">Registration</a>
+    <a href="department.html"style="color: white;float: left;width: 11%;padding: 15px;font-size: 1.2rem;text-decoration: none;">Department</a>
+    <a href="photo.html"style="color: white;float: left;width: 11s%;padding: 15px;font-size: 1.2rem;text-decoration: none;">Photo Gallery</a> 
+</div>
+<!--menu section end-->
+<!--body section start-->
+<div style="background-color:wheat;width: 90%;margin: 0 auto;float: left;margin-left: 63px;">
+    <form action="www.seu.edu.bd">
+      <fieldset style="border-color: red;">
+       <legend style="font-size: 2rem;color: brown;">Application form</legend>
+       <p style="margin-left: 50px;font-size: 1.5rem;color: green;"> Name:<input type="text" style="padding: 10px;margin-top: 5px;width: 55%;background-color: peachpuff;font-size: 1.2rem;border-radius: 20px;color: darkgreen;border-color: maroon;" placeholder="Enter your name here" required></p>
+       <p style="margin-left: 50px;font-size: 1.5rem;color: green;">Father's Name:<input type="text" style="padding: 10px;margin-top: 5px;width: 55%;background-color: peachpuff;font-size: 1.2rem;border-radius: 20px;color: darkgreen;border-color: maroon;" placeholder="Enter your father's name here" required></p>
+       <p style="margin-left: 50px;font-size: 1.5rem;color: green;">Mother's Name:<input type="text" style="padding: 10px;margin-top: 5px;width: 55%;background-color: peachpuff;font-size: 1.2rem;border-radius: 20px;color: darkgreen;border-color: maroon;" placeholder="Enter your Mother's name here" required></p>
+       <p style="margin-left: 50px;font-size: 1.5rem;color: green;">Address:<input type="text" style="padding: 10px;margin-top: 5px;width: 55%;background-color: peachpuff;font-size: 1.2rem;border-radius: 20px;color: darkgreen;border-color: maroon;" placeholder="Enter your address here" required></p>
+       <p style="margin-left: 50px;font-size: 1.5rem;color: green;">Email:<input type="email" style="padding: 10px;margin-top: 5px;width: 55%;background-color: peachpuff;font-size: 1.2rem;border-radius: 20px;color: darkgreen;border-color: maroon;" placeholder="Enter your email here" required></p>
+       <p style="margin-left: 50px;font-size: 1.5rem;color: green;">Phone Number:<input type="number" style="padding: 10px;margin-top: 5px;width: 55%;background-color: peachpuff;font-size: 1.2rem;border-radius: 20px;color: darkgreen;border-color: maroon;" placeholder="Enter your phone number here" required></p>
+       
+       <p style="margin-left: 50px;font-size: 1.5rem;color: green;">
+       Gender:<input type="radio" value="male" id="gender" name="gender">Male
+       <input type="radio" value="female" id="gender" name="gender">Female
+       <input type="radio" value="others" id="gender" name="gender">Others
+       </p>
+        <p style="margin-left: 50px;font-size: 1.5rem;color: green;">
+         Date of Birth:<input style="padding: 10px;margin-top: 5px;width: 55%;background-color: peachpuff;font-size: 1.2rem;border-radius: 20px;color: darkgreen;border-color: maroon;" type="date" name="dob" id="dob"><br>
+         Choose your photo:<input style="padding: 10px;margin-top: 5px;font-size: 1.2rem;" type="file" name="photo" id="photo"><br>
+         Religion:<input type="checkbox" value="islam" id="muslim" name="c1">Islam
+         <input type="checkbox" value="hindu" id="hindu" name="c1">Hindu
+         <input type="checkbox" value="others" id="others" name="c1">Others<br>
+         Department:<select style="padding: 10px;margin-top: 5px;width: 20%;background-color: peachpuff;font-size: 1.2rem;border-radius: 20px;color: darkgreen;border-color: maroon;">
+             <option  value="eee">EEE</option>
+             <option value="textile">Textile</option>
+             <option value="cse" selected>CSE</option>
+             <option value="bangla">Bangla</option>
+             <option value="english">English</option>
+         </select>
+         <br>
+         Message:<br><textarea style="padding: 10px;margin-top: 5px;width: 50%;background-color: peachpuff;font-size: 1.2rem;border-radius: 20px;color: darkgreen;border-color: maroon;"  cols="5" rows="5"></textarea>
+        </p>
+         <p style="margin-left: 50px;"><input style="margin-left: 50px;font-size: 1.5rem;color: blue;border-radius: 10px;background-color: beige;border-color: orangered;" type="submit" value="Submit">
+         <input style="margin-left: 5px;font-size: 1.5rem;color: blue;border-radius: 10px;background-color: beige;border-color: orangered;" type="reset" value="Clear">
+         </p>
+        </fieldset>
+    </form>
+    <hr>
+  </div>
+<!--body section end-->
+<!--footer section start-->
+<div style="background-color: wheat;height: 75px;float: left;width: 90%;margin-left: 63px;">
+    <p style="text-align: center;color: coral;font-size: 1.2rem;">Copyright &copy; 2022 <a href="home.html" style="text-decoration: none;">Southeast University </a>All Rights Reserved</p>
+    <p style="text-align: center;color: deeppink;">Designed By:Empty_Brain</p>
+</div>
+<!--footer section end-->
+</body>
+</html>
