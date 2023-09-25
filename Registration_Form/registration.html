@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>PHP-MySql </title>
+</head>
+<body>
+<form name="form" action="save.php" method="post" onsubmit="return check()">
+<center><h1>Registration form</h1><br><br>
+Full Name:<input type="text" name="fullname"><br><br>
+NID/BID:<input type="number" name="nid"><br><br>
+Email:<input type="email" name="email"><br><br>
+Date Of Birth:<input type="date" name="dob"><br><br>
+Age:<input type="numer" name="age"><br><br>
+Contract:<input type="number" name="cn"><br><br>
+Gender:<input type="radio" name="gender" value="Female">Female
+<input type="radio" name="gender" value="Male">Male
+<input type="radio" name="gender" value="Others">Others
+<br><br>
+District:<select name="dis" id="district">
+<option value="Dhaka">Dhaka</option>
+<option value="Jamalpur">Jamalpur</option>
+<option value="Rangpur">Rangpur</option>
+</select>
+<br><br>
+<input type="submit" name="sb" value="Registration"></center>
+</form>
+<script>
+function check(){
+var fname=document.form.fullname.value;
+var nd=document.form.nid.value;
+var email=document.form.email.value;
+var dob=document.form.dob.value;
+var age=document.form.age.value;
+var contract=document.form.cn.value;
+var gender=document.form.gender.value;
+var district=document.form.dis.value;
+if(fname==""){
+alert("Name field can not be empty");
+return false;
+}
+if(nd==""){
+alert("NID/BID field can not be empty");
+return false;
+}
+if(email==""){
+alert("Email field can not be empty");
+return false;
+}
+if(dob==""){
+alert("DOB filled can not be empty");
+return false;
+}
+if(age==""){
+alert("This filled can not be empty");
+return false;
+}
+if(age<=17){
+alert("Must be greater than or equal 18");
+return false;
+}
+if(contract==""){
+alert("Contract filled can not be empty");
+return false;
+}
+if(gender==""){
+alert("Gender filled can not be empty");
+return false;
+}
+if(district==""){
+alert("District filled can not be empty");
+return false;
+}
+}
+</script>
+</body>
+</html>
