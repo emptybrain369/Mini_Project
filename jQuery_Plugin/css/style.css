@@ -1,0 +1,10 @@
+.main{
+    background-color: aqua;
+    display: flex;
+    color: red;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+
+}
